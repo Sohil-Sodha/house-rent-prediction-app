@@ -125,3 +125,6 @@ if st.button("Predict Rent 💰"):
     prediction = model.predict(input_df)[0]
     st.success(f"Estimated Rent: {prediction:,.2f}")
 
+st.info("Predictions are based on historical data and may vary in real conditions.")
+st.warning("Do not use this prediction as a legal or financial guarantee.")
+
