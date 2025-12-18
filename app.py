@@ -135,5 +135,6 @@ st.warning("Warning: Do not use this prediction as a legal or financial guarante
 st.write("")
 st.write("")
 st.write("")
-st.write("@2025 | Built By Sohil Sodha")
+
+st.write("@2025  |  Built By Sohil Sodha")
 
