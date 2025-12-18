@@ -95,8 +95,6 @@ model = load_model()
 # UI
 # ===============================
 st.title("🏠 House Rent Price Predictior")
-st.write("Important note: This model will only predict rental prices for the following cities across india:")
-st.write("Bangalore, Chennai, Delhi, Mumbai, Kolkata")
 
 rooms = st.number_input("Rooms", 1, 10, 2)
 bathroom = st.number_input("Bathrooms", 1, 10, 2)
@@ -129,6 +127,9 @@ st.write("")
 st.write("")
 
 st.info("Important: Predictions are based on historical data and may vary in real conditions.")
-st.warning("Note: Do not use this prediction as a legal or financial guarantee.")
+st.warning("Warning: Do not use this prediction as a legal or financial guarantee.")
 
-
+st.write("")
+st.write("")
+st.write("")
+st.write("@2025 | Built By Sohil Sodha")
