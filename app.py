@@ -95,8 +95,8 @@ model = load_model()
 # UI
 # ===============================
 st.title("🏠 House Rent Price Predictior")
-st.subheader("Important note: This model will only predict rental prices for the following cities across india:")
-st.subheader("Bangalore, Chennai, Delhi, Mumbai, Kolkata")
+st.write("Important note: This model will only predict rental prices for the following cities across india:")
+st.write("Bangalore, Chennai, Delhi, Mumbai, Kolkata")
 
 rooms = st.number_input("Rooms", 1, 10, 2)
 bathroom = st.number_input("Bathrooms", 1, 10, 2)
@@ -125,6 +125,10 @@ if st.button("Predict Rent 💰"):
     prediction = model.predict(input_df)[0]
     st.success(f"Estimated Rent: {prediction:,.2f}")
 
-st.info("Predictions are based on historical data and may vary in real conditions.")
-st.warning("Do not use this prediction as a legal or financial guarantee.")
+st.write("")
+st.write("")
+
+st.info("Important: Predictions are based on historical data and may vary in real conditions.")
+st.warning("Note: Do not use this prediction as a legal or financial guarantee.")
+
 
