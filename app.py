@@ -96,6 +96,9 @@ model = load_model()
 # ===============================
 st.title("🏠 House Rent Price Predictior")
 
+st.write("")
+st.write("")
+
 rooms = st.number_input("Rooms", 1, 10, 2)
 bathroom = st.number_input("Bathrooms", 1, 10, 2)
 parking_spaces = st.number_input("Parking Spaces", 0, 10, 1)
@@ -133,3 +136,4 @@ st.write("")
 st.write("")
 st.write("")
 st.write("@2025 | Built By Sohil Sodha")
+
