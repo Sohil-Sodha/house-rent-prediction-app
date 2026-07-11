@@ -1,2 +1,2 @@
 # house-rent-prediction-app
-ML-based House Rent Prediction App using Streamlit
+ML-based House Rent Predictior
